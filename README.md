@@ -1,6 +1,6 @@
 # Neo Bee Fix | [![][cf-shield]][cf-link] [![][mr-shield]][mr-link]
 
-### This is a Neoforge port of MacTso and lupicus' [BeeFix](https://legacy.curseforge.com/minecraft/mc-mods/bee-fix) mod, please check their other mods out!
+### This is a Neoforge and Fabric rewrite of MacTso and lupicus' [BeeFix](https://legacy.curseforge.com/minecraft/mc-mods/bee-fix) mod, please check their other mods out!
 
 ### Fixes:
 * [MC-168329](https://bugs.mojang.com/browse/MC/issues/MC-168329) : Bees refuse to leave hive in end/nether
@@ -9,6 +9,7 @@
 * [MC-234364](https://bugs.mojang.com/browse/MC/issues/MC-234364) : Bees death animation only flips them 90 degrees, instead of 180 degrees as other arthropods
 * [MC-248332](https://bugs.mojang.com/browse/MC/issues/MC-248332) : Bees, ghasts, and phantoms can destroy turtle eggs (only Bees fixed)
 
+Available for Fabric and Neoforge 1.20.1/1.21.1/1.21.11
 
 [mr-shield]: https://img.shields.io/modrinth/dt/DzSY371i?style=for-the-badge&logo=modrinth&label=Modrinth&labelColor=black&color=%2300AF5C
 [mr-link]: https://modrinth.com/mod/neo-bee-fix
