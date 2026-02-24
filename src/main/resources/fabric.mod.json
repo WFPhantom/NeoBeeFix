@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "${version}",
+	"name": "Neo Bee Fix",
+	"description": "Fix the Bees!",
+	"authors": [
+		"WFPhantom"
+	],
+	"contact": {
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/neo-bee-fix",
+		"sources": "https://github.com/WFPhantom/NeoBeeFix"
+	},
+	"license": "MIT",
+	"icon": "assets/neobeefix/beelogo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.wfphantom.neobeefix.Main"
+		],
+		"client": []
+	},
+	"mixins": [
+		"neobeefix.mixins.json",
+		{
+			"config": "neobeefix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
