@@ -26,7 +26,7 @@ public class BeeMixin {
     private void noGravityOnLoad(CompoundTag tag, CallbackInfo ci) {
         if (!tag.contains("NoGravity")) ((Bee) (Object) this).setNoGravity(true);
     }
-    @Inject(method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", at = @At("RETURN"))
+    @Inject(method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/Bee;", at = @At("RETURN"))
     private void noGravityOnBreed(ServerLevel level, AgeableMob otherParent, CallbackInfoReturnable<AgeableMob> cir) {
         AgeableMob child = cir.getReturnValue();
         if (child instanceof Bee beeChild) beeChild.setNoGravity(true);

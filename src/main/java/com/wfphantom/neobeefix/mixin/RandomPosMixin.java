@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(RandomPos.class)
 public class RandomPosMixin {
     @Redirect(method = "generateRandomDirectionWithinRadians", at = @At(value = "INVOKE", target = "Lnet/minecraft/core/BlockPos;containing(DDD)Lnet/minecraft/core/BlockPos;"))
-    private static BlockPos neobeefix$centerBlockPos(double x, double y, double z) {
+    private static BlockPos centerBlockPos(double x, double y, double z) {
         return BlockPos.containing(x + 0.5D, y, z + 0.5D);
     }
 }
