@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.wfphantom.neobeefix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TurtleEggBlockMixin",
+    "BeehiveBlockEntityMixin",
+    "BeeMixin",
+    "BeeGravityMixin",
+    "RandomPosMixin",
+    "PathNavigationMixin"
+  ],
+  "client": [
+    "BeeRendererMixin"
+  ],
+  "minVersion": "0.8"
+}

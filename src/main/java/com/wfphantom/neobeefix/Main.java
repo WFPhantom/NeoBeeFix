@@ -6,8 +6,4 @@ import net.neoforged.fml.common.Mod;
 public class Main
 {
     public static final String MODID = "neobeefix";
-
-    public Main()
-    {
-    }
 }
