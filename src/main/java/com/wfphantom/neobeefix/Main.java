@@ -1,9 +1,11 @@
 package com.wfphantom.neobeefix;
 
-import net.neoforged.fml.common.Mod;
+import net.fabricmc.api.ModInitializer;
 
-@Mod(Main.MODID)
-public class Main
-{
-    public static final String MODID = "neobeefix";
+public class Main  implements ModInitializer {
+    public static final String MOD_ID = "neobeefix";
+
+    @Override
+    public void onInitialize() {
+    }
 }
