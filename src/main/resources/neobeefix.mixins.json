@@ -6,8 +6,7 @@
     "TurtleEggBlockMixin",
     "BeeMixin",
     "BeeGravityMixin",
-    "RandomPosMixin",
-    "PathNavigationMixin"
+    "RandomPosMixin"
   ],
   "client": [
     "BeeRendererMixin"
