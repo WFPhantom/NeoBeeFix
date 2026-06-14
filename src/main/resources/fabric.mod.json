@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "neobeefix",
 	"version": "${version}",
 	"name": "Neo Bee Fix",
 	"description": "Fix the Bees!",
@@ -16,24 +16,15 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.wfphantom.neobeefix.Main"
-		],
-		"client": []
+			"com.wfphantom.NeoBeeFix"
+		]
 	},
 	"mixins": [
-		"neobeefix.mixins.json",
-		{
-			"config": "neobeefix.client.mixins.json",
-			"environment": "client"
-		}
+		"neobeefix.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.2",
+		"fabricloader": ">=0.19.3",
 		"minecraft": "1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"java": ">=21"
 	}
 }

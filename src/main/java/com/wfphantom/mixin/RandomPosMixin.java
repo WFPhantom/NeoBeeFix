@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin;
+package com.wfphantom.mixin;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.ai.util.RandomPos;

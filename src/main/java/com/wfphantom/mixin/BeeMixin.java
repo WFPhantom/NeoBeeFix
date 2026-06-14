@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin;
+package com.wfphantom.mixin;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;

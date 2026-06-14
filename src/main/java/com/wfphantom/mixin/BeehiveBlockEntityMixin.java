@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin;
+package com.wfphantom.mixin;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BeehiveBlockEntity;
