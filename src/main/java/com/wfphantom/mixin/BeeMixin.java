@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin;
+package com.wfphantom.mixin;
 
 import com.mojang.serialization.Codec;
 import net.minecraft.server.level.ServerLevel;

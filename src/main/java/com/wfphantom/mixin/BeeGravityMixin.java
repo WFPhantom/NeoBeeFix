@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin;
+package com.wfphantom.mixin;
 
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.entity.EntitySpawnReason;

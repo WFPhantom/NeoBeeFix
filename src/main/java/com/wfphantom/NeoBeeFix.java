@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix;
+package com.wfphantom;
 
 import net.fabricmc.api.ModInitializer;
 

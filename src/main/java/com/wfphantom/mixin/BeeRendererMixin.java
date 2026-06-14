@@ -1,4 +1,4 @@
-package com.wfphantom.neobeefix.mixin.client;
+package com.wfphantom.mixin;
 
 import net.minecraft.client.renderer.entity.BeeRenderer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
