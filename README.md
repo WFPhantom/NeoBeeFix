@@ -9,7 +9,7 @@
 * [MC-234364](https://mojira.dev/MC-234364) : Bees death animation only flips them 90 degrees, instead of 180 degrees as other arthropods
 * [MC-248332](https://mojira.dev/MC-248332) : Bees, ghasts, and phantoms can destroy turtle eggs (only Bees fixed)
 
-Available for Fabric and Neoforge 1.20.1/1.21.1/1.21.11/26.1
+Available for Fabric and Neoforge 1.20.1/1.21.1/1.21.11/26.1.x/26.2
 
 [mr-shield]: https://img.shields.io/modrinth/dt/DzSY371i?style=for-the-badge&logo=modrinth&label=Modrinth&labelColor=black&color=%2300AF5C
 [mr-link]: https://modrinth.com/mod/neo-bee-fix
